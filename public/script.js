@@ -8,7 +8,7 @@ document.getElementById("load-btn").addEventListener("click", async () => {
         const productItem = document.createElement("div");
         productItem.classList.add("product");
         productItem.innerHTML = `
-            <img src="${product.thumbnail}" alt="${product.title}" width="100" height="100">
+            <img src="${product.thumbnail}" alt="${product.title}" width="50" height="50">
             <p><strong>${product.title}</strong></p>
             <p>Price: $${product.price}</p>
             <p>Discount: ${product.discount}%</p>
